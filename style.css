@@ -1,0 +1,156 @@
+/* ------------------------------------------ tag-selectors ------------------------------------------------ */
+
+* {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.education {
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.top-container {
+    height: 600px;
+    background-image: url("https://img.freepik.com/free-vector/flat-adventure-background-with-mountains_23-2149045825.jpg?t=st=1647800434~exp=1647801034~hmac=0581c05ec617385f02868adf6866f5699f66f0c6a6ce65cf167c2130e6162589&w=996"), linear-gradient(#eb01a5, #d13531);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+}
+
+a:hover {
+    color: #f0a500;
+    text-shadow: 1px 1px lightslategrey;
+}
+
+body {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color: Red;
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
+}
+
+h2 {
+    font-weight: normal;
+    color: red;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+h3 {
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: #40514E;
+}
+
+hr {
+    width: 10%;
+    margin: 100px auto;
+    border-style: dotted;
+    border-width: 5px 0 0;
+    color: red;
+}
+
+
+/* ------------------------------------------ class-selectors ------------------------------------------------ */
+
+.top-container {
+    background-color: #EAF6F6;
+    padding-top: 100px;
+    position: relative;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.contact-me {
+    width: 50%;
+    margin: 100px auto;
+    line-height: 2;
+}
+
+
+/* .bottom-container {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+} */
+
+.pro {
+    text-decoration: underline;
+}
+
+.profile-p {
+    margin-top: 20px;
+}
+
+.general-images {
+    width: 25%;
+    height: 25%;
+}
+
+.image-kanchan {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 50px auto;
+}
+
+.skill-images-1 {
+    float: left;
+    margin-right: 28px;
+}
+
+.skill-images-2 {
+    float: right;
+    margin-left: 28px;
+}
+
+.bottom-container {
+    background-color: red;
+    padding: 50px;
+}
+
+.footer-link {
+    margin: 0 20px;
+    color: white;
+}
+
+.footer-author {
+    margin: 40px auto 20px auto;
+}
+
+.margin-button {
+    margin: 0px 0px 50px 0px;
+}
+
+.btn {
+    margin: 50px 0px;
+    border-radius: 10em;
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+}
+
+
+/* ------------------------------------------ id-selectors ------------------------------------------------ */
